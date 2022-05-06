@@ -38,7 +38,7 @@ test('test stop render function', (expect) => {
 test('test food render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="food"><h1>Mac &amp; Cheese</h1><img src="./assets/macaroni.jpg"><p>Mac &amp; Cheese is perfect for when I feel sad because it has a comfort level of 10.</p><h2>Bare Minimum Ingredients</h2><ul><li>Elbow macaroni noods</li><li>Cheddar cheese</li><li>Mozzarella cheese</li><li>Butter</li></ul></div>`;
+    const expected = `<div class="food"><h1>Mac &amp; Cheese</h1><img src="./assets/macaroni.jpg"><p>Mac &amp; Cheese is perfect for when I feel sad because it has a comfort level of 10.</p><h2>Bare Minimum Ingredients</h2><ul><li>Elbow mac noods</li><li>Cheddar cheese</li><li>Mozzarella cheese</li><li>Butter</li></ul></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const

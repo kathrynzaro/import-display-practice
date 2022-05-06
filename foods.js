@@ -4,7 +4,7 @@ export const foods = [
         image: './assets/macaroni.jpg',
         whenIFeel: 'sad',
         blankLevel: 'comfort',
-        ingredients: ['Elbow macaroni noods', 'Cheddar cheese', 'Mozzarella cheese', 'Butter'],
+        ingredients: ['Elbow mac noods', 'Cheddar cheese', 'Mozzarella cheese', 'Butter'],
     },
     {
         name: 'Delivery Pizza',
