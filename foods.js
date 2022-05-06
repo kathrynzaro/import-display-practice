@@ -14,7 +14,7 @@ export const foods = [
         ingredients: ['Pizza place phone number', 'Delivery address', 'A mouth'],
     },
     {
-        name: 'Tacos',
+        name: 'Taco Night',
         image: './assets/tacos.jpg',
         whenIFeel: 'energetic or the weather is warm',
         blankLevel: 'fun',
