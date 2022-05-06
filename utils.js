@@ -14,3 +14,20 @@ export function renderBook(book) {
     div.append(h1, img, p);
     return div;
 }
+
+export function renderStop(stop) {
+    const div = document.createElement('div');
+    div.classList.add('stop');
+
+    const h1 = document.createElement('h1');
+    h1.textContent = stop.what;
+
+    const img = document.createElement('img');
+    img.src = stop.image;
+
+    const p = document.createElement('p');
+    p.textContent = `On their cross country road trip... Kat, Joe, and Renly stopped at ${stop.what} in ${stop.where} to ${stop.why}.`;
+
+    div.append(h1, img, p);
+    return div;
+}
