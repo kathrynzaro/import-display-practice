@@ -15,7 +15,7 @@
 }
 
 #roadtrip {
-    background-image: url(../assets/road.png);
+    /* background-image: url(../assets/road.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
