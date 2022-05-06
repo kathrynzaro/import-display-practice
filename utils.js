@@ -43,7 +43,7 @@ export function renderFood(food) {
     img.src = food.image;
 
     const p = document.createElement('p');
-    p.textContent = `${food.name} is perfect for days when I feel ${food.whenIFeel} because it has a ${food.blankLevel} level of 10.`;
+    p.textContent = `${food.name} is perfect for when I feel ${food.whenIFeel} because it has a ${food.blankLevel} level of 10.`;
 
     const h2 = document.createElement('h2');
     h2.textContent = 'Bare Minimum Ingredients';

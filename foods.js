@@ -9,15 +9,15 @@ export const foods = [
     {
         name: 'Delivery Pizza',
         image: './assets/pizza.jpg',
-        whenIFeel: 'lazy or tired',
-        blankLevel: 'ease',
-        ingredients: ['Pizza place phone number', 'Delivery address', 'A mouth'],
+        whenIFeel: 'tired or overwhelmed',
+        blankLevel: 'lazy',
+        ingredients: ['Pizza place phone #', 'Delivery address', 'A mouth'],
     },
     {
         name: 'Taco Night',
         image: './assets/tacos.jpg',
         whenIFeel: 'energetic or the weather is warm',
         blankLevel: 'fun',
-        ingredients: ['tortillas', 'pico de gallo', 'filling of your choice', 'guacamole'],
+        ingredients: ['tortillas', 'ground beef', 'pico de gallo', 'guacamole', 'salsa verde'],
     }
 ];
